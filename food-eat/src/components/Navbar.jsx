@@ -1,5 +1,5 @@
 import React from 'react'
-import Profile from "../../assets/profile.png"
+import Profile from "../assets/profile.png"
 import { IoIosArrowDown } from "react-icons/io";
 
 const Navbar = () => {

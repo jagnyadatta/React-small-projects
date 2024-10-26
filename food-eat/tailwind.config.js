@@ -21,7 +21,20 @@ export default {
           xl: '5rem',
           '2xl': '6rem',
         },
-      }
+      },
+      animation:{
+        "spin-slow":  "spin 20s linear infinite",
+      },
+      keyframes:{
+        spin:{
+          from:{
+            transform:"rotate(0deg)",
+          },
+          to:{
+            transform:"rotate(360deg)",
+          },
+        },
+      },
     },
   },
   plugins: [],
